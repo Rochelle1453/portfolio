@@ -4,7 +4,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <div className="h-screen flex flex-col">
       <Header/>
-        <main className='flex-1'>
+        <main className='flex-1 container mx-auto px-6'>
             {children}
         </main> 
         <Footer/>
